@@ -1,0 +1,230 @@
+
+/*goggle fronts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500&display=swap');
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+/*
+primary background:#fff;
+secondary color: #f0f0f0;
+
+font color: black;
+sec color:b4ad9e;
+*/
+
+
+/* global css here*/ 
+body{
+	font-family: 'Playfair Display', serif;
+}
+h1, h2, h3,h4,h5,h6,span,input,button{
+	font-family: 'Playfair Display', serif;
+
+}
+.container{width: 1140px;
+	margin: 0 auto;
+
+}
+a:hover,a{
+	text-decoration: none;
+}
+ /* header section css here */
+ .header{
+ 	width:100%;
+ }
+ .main-header{
+ 	width: 100%;
+ 	float: left;
+ 	padding: 30px 0;
+ }
+ .logo{
+ 	width: 30%;
+ 	float: left;
+
+
+ }
+
+.menu-item{
+	width: 70%;
+	float: right;
+	text-align: right;
+
+}
+.menu-item ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 70px;
+
+	}
+.menu-item ul li{
+	text-transform: uppercase; 
+}
+
+
+/* banner post css here*/
+.banner-post{
+	width: 100%;
+
+}
+.post{
+
+}
+.post-details{
+	margin: 80px;
+
+}
+.post-details span{
+	text-transform: uppercase;
+	color: #b4ad9e;
+
+}
+
+
+
+.post-details h1{
+	margin: 18px 0;
+	font-weight: 600;
+}
+.post-details p{
+	margin-bottom: 30px;
+
+}
+/* blog gallary section css*/
+
+
+.blog-gallery{
+	width: 100%;
+}
+.gallery{
+	width: 92%;
+	float: left;
+	margin: 80px;
+}
+.left{
+	width: 46%;
+	float: left;
+	margin: 20px;
+	
+}
+.right{
+	width: 46%;
+	float: right;
+	margin: 20px;
+}
+.post-body img{
+	margin-bottom: 26px;
+}
+.post-body span{
+	text-transform: uppercase;
+	color: #b4ad9e;
+
+}
+.post-body h1{
+	margin:26px;
+}
+.post-body p{
+	margin-bottom: 26px;
+}
+/* subscription css here*/
+.subscription{
+	width: 100%;
+	display: flow-root;
+	background-color: #f0f0f0;
+	padding: 80px 0;
+	text-align: center;
+
+}
+
+..tittle{
+	margin-bottom: 30px;
+}
+.tittle h1{
+	font-weight: 400;
+} 
+form{
+	position: relative;
+}
+form input{
+	width: 30%;
+	padding: 20px 0 ;
+	border: none;
+	background: transparent;
+	border-bottom: 2px solid black;
+
+}
+form input: focus{
+	outline: none;
+
+}
+form i{
+	position: absolute;
+	top: 22px;
+	right: 36%;
+}
+.load-more{
+	padding: 80px 0;
+	text-align: center;
+	display: flow-root;
+}
+.button button{
+padding: 20px 35px;
+background: transparent;
+border-radius: 0;
+outline: none;
+border: none;
+border: 1px solid black;
+font-size: 18px;
+transition: all 0.5s ease-in-out;
+}
+
+.button button: hover{
+	cursor: pointer;
+	background-color:  #f0f0f0;
+	color: black;
+
+}
+
+
+
+
+
+
+/* footer part css*/
+.footer{
+	width: 100%;
+	display: flow-root;
+	background-color: #f0f0f0;
+	
+}
+.footer-body{
+	width: 100%;
+	float:left; 
+	padding: 30px 0;
+}
+.footer-left{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+.footer-right{
+	width:  50%;
+	float: right;
+	text-align: right;
+}
+.footer-left ul li, .footer-right ul li {
+	list-style: none;
+	display: inline-block;
+}
+.footer-left ul li{
+	margin-right:10%; 
+
+}
+.footer-right ul li{
+	margin-left: 10%;
+}
